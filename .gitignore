@@ -1,0 +1,16 @@
+.venv/
+.submission-qa/
+__agent__/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.py[cod]
+.env
+.env.*
+*.zip
+*.log
+*.tmp
+.DS_Store
+.vscode/
+.idea/

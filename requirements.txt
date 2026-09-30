@@ -1,0 +1,5 @@
+# Direct dependencies pinned to the versions used for the submitted outputs.
+pandas==2.3.3
+numpy==2.0.2
+streamlit==1.50.0
+openai==2.48.0

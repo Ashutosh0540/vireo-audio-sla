@@ -1,0 +1,91 @@
+ticket_id,customer_message,agent_notes,ai_reason,ai_confidence,ai_evidence,human_reason,agreement,review_notes
+TK-247373,"tracking has said out for delivery for a week now
+VR907252
+what do i do now?",resolved on call ~Steven,unclear_or_other,0.6,No evidence of delay in response.,,,
+TK-252890,"this is v disappointing.  bought replacement case around 21 may from amazon. ordered black, got white, not what i asked for. i already rechecked my order. i want a replacement or refund, nothing else.","1. wrong variant received
+2. raised wiht warehouse
+3. replacement approved, reverse pkp arranged //OM",system_or_process_issue,0.8,raised with warehouse and replacement approved,,,
+TK-249830,"Product: my Pulse
+Order: VR889504
+Purchased: 31/01
+Issue: I haven't received my order
+Tried: checked teh tracking page daily
+Expected: replacement",see prev,unclear_or_other,0.6,agent notes refer to previous ticket without details,,,
+TK-244874,"hey
+payment went through but i got no order id
+hello??",Refunded Rs 975. Issue: failed order after payment. Checked PG dashboard for txn. [closed],system_or_process_issue,0.8,payment went through but i got no order id,,,
+TK-247031,can't get past the loadig srceen in the app.  vr884797,"bug logged, workaround shared ~Harpreet",system_or_process_issue,0.8,"bug logged, workaround shared",,,
+TK-251251,need the bill with my firm's GSTN on it - VR891634,Invoice emailed. Issue: invoice not downloading. Regenerated invoice.,system_or_process_issue,0.8,Invoice not downloading,,,
+TK-247140,"hi,
+i bought nexxa fit on 25-06-2025.  it connects for a second & then vanishes from the device list.
+kindly look into it.
+awaiting response zoya","reported: unabble to pair with phone. asked cx to reset the device. advised fw update via app, resolved. //FAR",unclear_or_other,0.2,No evidence of delayed response in the notes,,,
+TK-245857,"is replacement case compatible with my TV, i want a replacement",Cx satisfied. Issue: pre-sales query. Shared compatibility info. [closed],unclear_or_other,0.2,No indication of delay in response,,,
+TK-249137,"hi sir
+order status stuck on shipped since 06/05
+airlite vr885952
+anyone there","Cx reported ord not delivered. conf address w/ cx. crr conf delivery for 27 Jan, cx informed.",system_or_process_issue,0.8,order status stuck on shipped since 06/05,,,
+TK-247696,coupon code not working.  VR899616. i want a replacement,Cx reported promo code invalid. Checked cart eligibility. Store credit issued.,system_or_process_issue,0.7,Cx reported promo code invalid.,,,
+TK-243657,"HEY
+DISTORTED AUDIO AT HIGH VOLUME
+PULSE2
+HELLO??","Cust conntacted re audio distortion. chk FW. Replacement raised, RMA shared with cx.",system_or_process_issue,0.7,"Replacement raised, RMA shared with cx.",,,
+TK-253696,"helo
+battery backup is terrible now
+strata 3","customer reached out - rapid battery drain. advised disabling anc/aod to test. fw update pushed, advised to monitor. //FAR",system_or_process_issue,0.7,firmware update pushed,,,
+TK-249815,"hi
+firmware update stuck for 2 hours","1. Updae hang
+2. Walked through recovery mode
+3. Recovery successful [closed]",system_or_process_issue,0.8,firmware update stuck for 2 hours,,,
+TK-249786,"helo
+package not delivered even after 13 days
+nexa fit
+hello??",cx states order not delivered. Raised ticket with crr partner. Re-shipped from warehouse.,system_or_process_issue,0.7,Raised ticket with partner and re-shipped from warehouse,,,
+TK-243882,"Product: Pulse2
+Order: VR895407
+Purchased: August 12
+Issue: money debited but order not showing
+Tried: checked bnk statement
+Expected: resolution","1. Payment debited, no ord
+2. chk PG dashboard for txn
+3. Refund approved, Rs 560, 5-7 working days (SOP 3.1)",system_or_process_issue,0.8,"Refund approved, Rs 560, 5-7 working days (SOP 3.1)",,,
+TK-252023,really frustrating. this is regarding spare case. need the bill with my firm's gstin on it. i already tried different browser. fix this or i am posting on twitter.,ticket raised for invoice query. updated gstin on order. invoice emailed. //SAM,unclear_or_other,0.6,Agent updated GSTIN and emailed invoice after ticket raised.,,,
+TK-244283,"Dear Sir/Madam, Got pulse 2 buds from Amazon 3 weeks back. Pickup scheduled but no one shoowed up. I rescheduled pickup twice. Can someone fix this? Thaanks in advance,",Refund processed without pickup as goodwill. Issue: reverse pickup pending. Checked pickup AWB. (SOP 2.7),system_or_process_issue,0.8,Pickup scheduled but no one showed up,,,
+TK-242605,"Really frustrating. Bought the Pulse buuds around 13/03 froom vireo.in. can't get psat the loading screen in the app. I already reinstalled the app. I wnt a replacement or refund, nothing else.","cleared cache, rslvd. issue: app crash on device page. known issue on ios 18 - bug logged.",system_or_process_issue,0.8,Known issue on iOS 18 bug logged.,,,
+TK-250300,"helo
+can i connect two the strata 3 together
+the strata 3","1. Pre-sales query
+2. Shared spec sheet
+3. Cx satisfied ~Neha",unclear_or_other,0.6,pre-sales query with no delay mentioned,,,
+TK-252606,"namaste, order vr889815 (pulse 2). payment was deducted but no order was created. i tried logging out and in. nothing changed. how do i get this fixed? thanks in advance simran","cx says payment debited, no ord. chk pg dashboard for txn. rfnd processed to source. cx informed. [closed]",system_or_process_issue,0.8,"payment debited but no order created, refund processed",,,
+TK-247339,"Dear team, I bought the Orbit smart speaker on 03/09.  My phone just doesn't see it in the list anymore. I want a replacement.","re: pairing failure | asked cx to reset the device -> rplc approved, reverse pickup arranged ~Neha",unclear_or_other,0.3,agent notes mention reset and replacement approval,,,
+TK-253458,can I connect two Pulse earbuds together,cx reached out - pre-sales query. Shared spec sheet. Cx satisfied.,unclear_or_other,0.9,cx reached out - pre-sales query. Shared spec sheet. Cx satisfied.,,,
+TK-244510,"to the vireo customer care team,
+
+i am writing with reference to my order of the pulse buds (vr886577) placed on 12-09-2024. the app closes itself the moment i tap on my device. i have updated phone. i request you to process a refund to my original payment method.
+
+regards,
+kavya rao
+hyderabad","app crashing | known issue on android 15 - bug logged -> adv beta build, rslvd [closed]",system_or_process_issue,0.9,known issue on android 15 - bug logged,,,
+TK-244379,"Product: the cable
+Purchased: 23/08
+Issue: my son ordered this without asking, please reverse
+Tried: tried cancel button, greyed out
+Expected: resolution",Full refund processed (399). Issue: order cancellation. Cancelled before dispatch. [closed],unclear_or_other,0.2,No evidence of delay in the notes,,,
+TK-253698,"I am losing patience. Ordered Pulse 2 around Diwali. battery drains very fast, barely lasts 2 hours. I alreayd turned off always-on display. Fix this or I am posting on twitter","1. poor battery backup
+2. checked fw 3.8.3
+3. advised settings change, cx satisfied",unclear_or_other,0.3,agent notes indicate a response but no timing details,,,
+TK-245212,"sir ji
+battery drains very fast, barely lasts 2 hours
+kindly do the needful","issue: poor battery backuup | checked fw 2.4.5 -> fw update pushed, advised to monitor //SAM",system_or_process_issue,0.7,firmware update pushed,,,
+TK-249264,"HI SIR
+STILL WAITING FOR MY REFUND","Refund approved, Rs 6174, 5-7 working days. Issue: refund pending. Checked refund status on PG. (SOP 5.4)",system_or_process_issue,0.8,"Refund approved, Rs 6174, 5-7 working days.",,,
+TK-242851,"Dear team, Bought the AirLite buds around 20-06-2025 from Flipkart. My order has not been delivered yet. I called the courier. Nothing changed. Nede this sorted this week. Thanks & regards,","cx says delivery delayed. checked awb with courier. replacement approved, reverse pickup arranged. cx informed.",system_or_process_issue,0.7,cx says delivery delayed. checked awb with courier.,,,
+TK-252319,"Dear Sir/Madam,
+
+I am writing w/ reference to my order of the Nexa 2 (VR905363) placed on 03/02. Screen lights up but does nothing when I touch. I have restarted. I request you to provide a resolution within 3 working days.
+
+Sincerely,
+Suresh Kaur
+Pune",cx: touch not responding | chk fw version -> refund of rs 6499 initiated to source | xfer returns desk (SOP 4.2),transfer_or_ownership_delay,0.8,xfer returns desk (SOP 4.2),,,
+TK-247558,"Not what I expected from Vireo. Ordered orbit mini 10 days ago. I have been sitting at home for 3 days waiting for your courier. I already rescheduled pickup twice. I want a replacement or refund, nothing else.",Refund processed without pickup as goodwill. Issue: pickup not done. Re-raised pickup with courier.,system_or_process_issue,0.7,"pickup not done, re-raised pickup with courier",,,

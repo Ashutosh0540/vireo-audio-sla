@@ -1,0 +1,5 @@
+Vireo Audio — Support Tickets Set D
+Client ask: breach report by agent and shift, weekly.
+Important context: ticket export is UTC; shift definitions are IST; roster has time-bounded assignments; some tickets are duplicate migration re-imports; legacy CSAT 0 means no response; ~40 IVR messages are failed transcripts.
+Headcount is frozen till Q4.
+Morning team is reportedly the bulk of breaches; Indore reshuffle in June was cost-neutral.
