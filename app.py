@@ -67,21 +67,25 @@ fcols = st.columns(3)
 week_options = sorted(weekly_agent.week.dropna().unique())
 shift_options = sorted(weekly_agent["shift"].dropna().unique())
 agent_options = sorted(weekly_agent.agent_name.dropna().unique())
-selected_weeks = fcols[0].multiselect("Week", week_options, default=week_options)
+selected_weeks = fcols[0].multiselect("Week", week_options, default=None, placeholder="All weeks")
 selected_shifts = fcols[1].multiselect("Shift", shift_options, default=shift_options)
-selected_agents = fcols[2].multiselect("Agent", agent_options, default=agent_options)
+selected_agents = fcols[2].multiselect("Agent", agent_options, default=None, placeholder="All agents")
+
+# Empty selections mean All; keep the UI uncluttered without changing data values.
+week_filter = selected_weeks or week_options
+agent_filter = selected_agents or agent_options
 
 filtered = weekly_agent.loc[
-    weekly_agent.week.isin(selected_weeks)
+    weekly_agent.week.isin(week_filter)
     & weekly_agent["shift"].isin(selected_shifts)
-    & weekly_agent.agent_name.isin(selected_agents)
+    & weekly_agent.agent_name.isin(agent_filter)
 ].copy()
 
-if not selected_weeks or not selected_shifts or not selected_agents:
-    st.info("Select at least one value in each filter to view the report.")
+if not selected_shifts:
+    st.info("Select at least one shift to view the report.")
     trend = pd.DataFrame(columns=["week", "tickets", "breaches", "breach_rate"])
-elif len(selected_shifts) == len(shift_options) and len(selected_agents) == len(agent_options):
-    trend = weekly.loc[weekly.week.isin(selected_weeks), [
+elif len(selected_shifts) == len(shift_options) and len(agent_filter) == len(agent_options):
+    trend = weekly.loc[weekly.week.isin(week_filter), [
         "week", "tickets", "breaches", "breach_rate"
     ]].copy()
 elif filtered.empty:
